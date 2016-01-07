@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
+using System.Threading;
 using System.Text;
 
 namespace WcfServicePOC
@@ -14,7 +15,16 @@ namespace WcfServicePOC
     {
         public string GetData(string value)
         {
-            return string.Format("You entered: {0}", value);
+            string retorno = String.Empty;
+
+            retorno =  string.Format("You entered: {0}", value);
+
+            if (value == "800")
+            {
+                Thread.Sleep(8000);
+            }
+
+            return retorno; 
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
