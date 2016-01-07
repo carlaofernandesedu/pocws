@@ -5,6 +5,13 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServicePOC", "WcfServicePOC.csproj", "{03BDFC88-9877-48D0-83BD-7098E2730C36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestWcfPOC", "..\WebTestWcfPOC\WebTestWcfPOC.csproj", "{763B69BC-0656-4CB2-8669-FF0C697DAFC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC6DEE14-2B76-4B3A-84CB-687C6A67C3E1}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{03BDFC88-9877-48D0-83BD-7098E2730C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BDFC88-9877-48D0-83BD-7098E2730C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03BDFC88-9877-48D0-83BD-7098E2730C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763B69BC-0656-4CB2-8669-FF0C697DAFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763B69BC-0656-4CB2-8669-FF0C697DAFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763B69BC-0656-4CB2-8669-FF0C697DAFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763B69BC-0656-4CB2-8669-FF0C697DAFC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
